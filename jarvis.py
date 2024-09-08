@@ -12,7 +12,7 @@ import psutil
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
-os.environ['API_KEY'] = 'AIzaSyBqqJfjctuOomMhs0bbf6Xl8_JXmFQUsZ8'
+#os.environ['API_KEY'] = 'AIzaSyBqqJfjctuOomMhs0bbf6Xl8_JXmFQUsZ8'
 
 # Configure Google Generative AI with your API key
 genai.configure(api_key=os.environ['API_KEY'])
